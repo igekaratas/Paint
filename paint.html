@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painting</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="paintstyle.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>  
+</head>
+<body>
+
+
+<div class="mcontainer">
+    <h1 class="topic">Choose Size and Color for Brush</h1>
+    <canvas id="paintScreen" width="700" height="400"></canvas><br>  
+
+    <button class="clear"><h4>Clear Screen</h4></button>
+    <label class="choose"> 
+    <select id="list" >
+        <option >Choose the brush size</option>
+        <option id="smallBrush" value="penn">Pen</option>
+        <option id="smallBrush" value="small">Smalll</option>
+        <option id="mediumBrush" value="mid">Medium</option>
+        <option id="largeBrush"  value="large">Large</option>
+    </select>  
+</label>  
+
+    <canvas id="color2" width="50" height="50"></canvas>
+    <canvas id="color3" width="50" height="50"></canvas>
+    <canvas id="color4" width="50" height="50"></canvas>
+    <canvas id="color5" width="50" height="50"></canvas>
+    <canvas id="color6" width="50" height="50"></canvas>
+    <canvas id="color7" width="50" height="50"></canvas>
+    <br>
+
+    
+</div>
+
+<script src="paintcode.js"></script>
+</body>
+</html>
